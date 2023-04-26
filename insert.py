@@ -8,7 +8,7 @@ session = Session()
 
 for i in range(10):
 
-    pet_name = f"coco {i}"
+    pet_name = f"coco_{i}"
     steps = random.randint(10, 100)
     calories = random.randint(10, 1000)
     sleep = random.randint(0, 8)
